@@ -1,7 +1,7 @@
 from django.db import models
 from django.urls import reverse
 
-#Create Your Models Here
+# Create Your Models Here
 
 class Event(models.Model):
     title = models.CharField(max_length=200)
@@ -17,4 +17,3 @@ class Event(models.Model):
         url = reverse('cal:event_edit', args=(self.id,))
         return f'<a href="{url}"> {self.title} </a>'
         
-    

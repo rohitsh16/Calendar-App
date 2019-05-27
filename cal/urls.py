@@ -1,6 +1,8 @@
 from django.conf.urls import url
 from . import views
 
+#Create your URLS for the App here
+
 app_name = 'cal'
 urlpatterns = [
     #url('index', views.index, name='index'),
