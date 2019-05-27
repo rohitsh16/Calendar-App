@@ -48,7 +48,7 @@ def next_month(d):
     month = 'month=' + str(next_month.year) + '-' + str(next_month.month)
     return month
 
-#@login_required
+@login_required(login_url="/admin")
 def event(request, event_id=None):
     instance = Event()
     if event_id:
