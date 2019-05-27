@@ -2,6 +2,12 @@
 
 {% block content %}
 
+<style>
+body{
+	background-color:#FFFBE6
+}
+</style>
+
 <div class="clearfix">
 	<a class="btn btn-primary info left" href="{% url 'cal:calendar' %}?{{ prev_month }}"> Previous Month </a>
 	<a class="btn btn-primary info right" href="{% url 'cal:calendar' %}?{{ next_month }}"> Next Month </a>
