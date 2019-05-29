@@ -2,7 +2,7 @@
 
 > This app is used to add, edit and manage events. You can add description to the events and the events are displayed in minthly view format.
 
-##  Building From Source 
+##  Starting the Project 
 
 * Fork and Clone the repository
 
