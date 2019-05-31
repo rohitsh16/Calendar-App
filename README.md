@@ -1,6 +1,6 @@
 # Django Calendar App
 
-> This app is used to add, edit and manage events. You can add description to the events and the events are displayed in minthly view format.
+> This app is used to add, edit and manage events. You can add description to the events and the events are displayed in monthly view format.
 
 ##  Starting the Project 
 
